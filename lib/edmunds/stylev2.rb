@@ -9,6 +9,14 @@ module Edmunds
     rescue
       return false
     end
+
+    def get_details_by_style_id(style_id)
+      @base = 'https://api.edmunds.com/api/vehicle/v2'
+      @url = "/styles/#{style_id}?"
+      call_api
+    rescue
+      return false
+    end
   end
 
 end

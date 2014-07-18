@@ -14,6 +14,8 @@ require 'edmunds/equipmentv2'
 require 'edmunds/modelv2'
 require 'edmunds/makev2'
 require 'edmunds/specsv2'
+require 'edmunds/optionsv2'
+require 'edmunds/editorreviews'
 
 require 'edmunds/cost_to_own.rb'
 require 'edmunds/edmunds_ratings.rb'
@@ -22,3 +24,4 @@ require 'edmunds/maintenance.rb'
 require 'edmunds/market_value.rb'
 require 'edmunds/vehicle_ratings.rb'
 require 'edmunds/vin.rb'
+
